@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <header>
+        <h1>Weather Dashboard</h1>
+        <p>City: <input type="search" id="input"> </p>
+        <button type="button" id="search" onclick="weather()">search</button> 
+        <!-- when clicking on the search button it should prompt the weather function in js -->
+
+    <section id="mainContainer">
+        <div class="weatherContainer">
+            <p class="day" id="day1"></p>
+            <div class="info">
+                <p class="minTemp" id="min1"></p>
+                <p class="maxTemp" id="max1"></p>
+                <p class="windSpeed" id="wind1"></p>
+                <p class="humidity" id="humidity1"></p>
+            </div>
+        </div>
+
+        <div class="weatherContainer">
+            <p class="day" id="day2"></p>
+            <div class="info">
+                <p class="minTemp" id="min2"></p>
+                <p class="maxTemp" id="max2"></p>
+                <p class="windSpeed" id="wind2"></p>
+                <p class="humidity" id="humidity2"></p>
+            </div>
+        </div>
+
+        <div class="weatherContainer">
+            <p class="day" id="day3"></p>
+            <div class="info">
+                <p class="minTemp" id="min3"></p>
+                <p class="maxTemp" id="max3"></p>
+                <p class="windSpeed" id="wind3"></p>
+                <p class="humidity" id="humidity3"></p>
+            </div>
+        </div>
+
+        <div class="weatherContainer">
+            <p class="day" id="day4"></p>
+            <div class="info">
+                <p class="minTemp" id="min4"></p>
+                <p class="maxTemp" id="max4"></p>
+                <p class="windSpeed" id="wind4"></p>
+                <p class="humidity" id="humidity4"></p>
+            </div>
+        </div>
+
+        <div class="weatherContainer">
+            <p class="day" id="day5"></p>
+            <div class="info">
+                <p class="minTemp" id="min5"></p>
+                <p class="maxTemp" id="max5"></p>
+                <p class="windSpeed" id="wind5"></p>
+                <p class="humidity" id="humidity5"></p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>

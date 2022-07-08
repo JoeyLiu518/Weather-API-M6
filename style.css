@@ -1,0 +1,11 @@
+#mainContainer{
+   
+}
+
+.weatherContainer{
+    height: 100px;
+    width: 300px;
+    border: solid black;
+    display:flex;
+    margin: 10px
+}
